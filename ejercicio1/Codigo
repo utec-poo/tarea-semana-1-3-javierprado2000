@@ -1,0 +1,19 @@
+//
+// Created by Javier  Prado  on 17/09/19.
+//
+//Calcular el area de un triangulo conociendo la base y altura//
+#include <iostream>
+using namespace std;
+int main (){
+    int x;
+    int y;
+    int z;
+    cout<<"Dame la altura: ";
+    cin>>x;
+    cout<<"Dame la abase: ";
+    cin>>y;
+    z=x*y/2;
+    cout<<"El area es: "<<z;
+    return 0;
+}
+
