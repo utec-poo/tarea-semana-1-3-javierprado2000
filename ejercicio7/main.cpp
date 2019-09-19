@@ -1,13 +1,13 @@
 #include <iostream>
-#include "Tipos.h"
 using namespace std;
-
 int main() {
+    int x;
+    do {
+        cout << "Dime el numero: ";
+        cin >> x;
+    }while (10>x||x>30);
+    do{cout<<"*";
+        x-=1;
+    }while (x!=0);
 
-entero numero;
-cin >> numero;
-
-// ToDO
-// implemente el algoritmo.
-  return 0;
 }
