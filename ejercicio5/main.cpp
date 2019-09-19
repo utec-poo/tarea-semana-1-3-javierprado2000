@@ -1,18 +1,12 @@
 #include <iostream>
-#include "Tipos.h"
 using namespace std;
-
 int main() {
-
-entero numero;
-caracter crt;
-
-cout << "ingrese el caracter:";
-cin >> crt;
-cout << "\ningrese el numero:";
-cin >> numero;
-
-// ToDO
-// implemente el algoritmo.
-  return 0;
+    int x;
+    int c=0;
+    do {
+        cout << "Dime el numero: ";
+        cin >> x;
+        c += 1;
+    }while (x!=0);
+    cout<<"El numero de intentos fue "<<c;
 }
