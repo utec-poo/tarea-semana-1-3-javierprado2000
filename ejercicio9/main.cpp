@@ -1,16 +1,19 @@
 #include <iostream>
-#include "tipos.h"
-#include "MyFunc.h"
+
 using namespace std;
 int main() {
-    l_enteros segundos;
-    enteros horas, min, seg;
-
-    do {
-        cout << "Segundos: ";
-        cin >> segundos;
-    } while (segundos <1);
-
-    // ToDO
-    return 0;
+    int x;
+    int z;
+    int y;
+    int w;
+    cout<<"Dime los segundos: ";
+    cin>>x;
+    z=(x/3600);
+    y=((x%3600)/60);
+    w=((x%3600)%60);
+    cout<<"Tiene "<<z<<" Horas\n";
+    cout<<"Tiene "<<y<<" Minutos\n";
+    cout<<"Tiene "<<w<<" segundos\n";
 }
+
+//no se como hacerlo con funciones
